@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.png" type="image/x-icon" />
+    <title>Do Home Work</title>
+    <!-- SWIPER CAROUSEL -->
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <!-- OWL CAROUSEL -->
+    <link rel="stylesheet" href="./css/owl.carousel.css" />
+    <link rel="stylesheet" href="./css/owl.theme.default.css" />
+    <!-- ANIMATE CSS -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- FLATICON -->
+    <link rel="stylesheet" href="./css/flaticon/flaticon.css" />
+    <!-- LINE FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css"
+    />
+    <!-- LIGHT GALLERY -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/css/lightgallery-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper@8/swiper-bundle.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <!-- FONT AWESOME -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+    />
+    <!-- GOOGLE__FONT -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <!-- MAIN__CSS -->
+    <link rel="stylesheet" href="./css/index.css" />
+  </head>
+  <body style="position: relative">
+    <!-- HEADER -->
+    <header class="header">
+      <div class="container">
+        <div class="header__content">
+          <a href="#"><img src="./images/logo-2.png" alt="logo samar" /></a>
+          <nav>
+            <ul>
+              <li>
+                <a href="#" class="active">
+                  <span>home</span>
+                  <i class="fa fa-chevron-down"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>pages</span>
+                  <i class="fa fa-chevron-down"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>services</span>
+                  <i class="fa fa-chevron-down"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>post Layout</span>
+                  <i class="fa fa-chevron-down"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>blog</span>
+                  <i class="fa fa-chevron-down"></i>
+                </a>
+              </li>
+              <li>
+                <a href="#">
+                  <span>Contact Us</span>
+                  <i class="fa fa-chevron-down"></i>
+                </a>
+              </li>
+            </ul>
+            <div>
+              <button class="gradient_btn">Get A Quote</button>
+            </div>
+          </nav>
+          <button class="navbar__toggle"><i class="fa fa-bars"></i></button>
+        </div>
+      </div>
+    </header>
+    <!-- CAROUSEL -->
+   
+    <!-- BACK TO TOP -->
+    <a href="#" class="BackToTop cd-top text-replace js-cd-top"><i class="fa fa-arrow-up"></i></a>
+    
+
+    <!-- JQUERY -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+      integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- JQUERY WAYPOINT CND -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <!-- COUNT UP JS -->
+    <script src="./js/jquery.countup.min.js"></script>
+    <script>
+      $(".counter").countUp({
+        time: 2000,
+        delay: 10,
+      });
+    </script>
+    <!-- WOW JS -->
+    <script src="./js/wow.min.js"></script>
+    <script>
+      new WOW().init();
+    </script>
+    <!-- LIGHT GALLERY  CDN-->
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/lightgallery.umd.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/plugins/thumbnail/lg-thumbnail.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/plugins/zoom/lg-zoom.umd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/plugins/fullscreen/lg-fullscreen.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/plugins/autoplay/lg-autoplay.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/lightgallery@2.1.3/plugins/share/lg-share.min.js"></script>
+    <script>
+      lightGallery(document.getElementById("animated-thumbnails"), {
+        selector: ".lightimg",
+        plugins: [lgZoom, lgThumbnail, lgAutoplay, lgFullscreen, lgShare],
+        alignThumbnails: "left",
+        loop: true,
+        allowMediaOverlap: true,
+        toggleThumb: true,
+        showZoomInOutIcons: true,
+        actualSize: false,
+        exThumbImage: "data-exthumbimage",
+      });
+    </script>
+    <!-- SWIPER CAROUSEL -->
+    <script src="https://unpkg.com/swiper@8.0.7/swiper-bundle.min.js"></script>
+
+    <script>
+      var testimonialThumbs = new Swiper(".comment__thumbs", {
+        spaceBetween: 10,
+        slidesPerView: 3,
+        centeredSlides: true,
+        freeMode: true,
+        autoplay: true,
+        loop: true,
+        speed: 2500,
+      });
+      var testimonialContent = new Swiper(".comment__text", {
+        spaceBetween: 10,
+        autoplay: true,
+        loop: true,
+        speed: 2500,
+        thumbs: {
+          swiper: testimonialThumbs,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+      });
+    </script>
+    <!-- OWL CAROUSEL -->
+    <script src="./js/owl.carousel.min.js"></script>
+    <script>
+        $('.owl-carousel').owlCarousel({
+            loop: true,
+            margin: 30,
+            nav: true,
+            responsive: {
+                0: {
+                    items: 1
+                },
+                600: {
+                    items: 2
+                },
+                1000: {
+                    items: 3
+                }
+            }
+        })
+    </script>
+    <!-- BACK TO TOP -->
+    <script src="./js/mainbacktotop.js"></script>
+    <script src="./js/util.js"></script>
+
+  </body>
+</html>
